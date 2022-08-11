@@ -3,7 +3,7 @@ if IY_LOADED and not _G.IY_DEBUG == true then
 	return
 end
 
-pcall(function() getgenv().IY_LOADED = true end)
+pcall(function() getgenv().IY_LOADED = false end)
 
 COREGUI = game:GetService("CoreGui")
 if not game:IsLoaded() then
